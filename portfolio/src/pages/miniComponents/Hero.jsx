@@ -187,23 +187,27 @@ const Hero = () => {
               initial={{ scale: 1, boxShadow: "0 0 0px rgba(167, 139, 250, 0.0)" }}
               animate={{
                 boxShadow: [
-                  "0 0 16px rgba(56, 189, 248, 0.18)",
-                  "0 0 28px rgba(168, 85, 247, 0.28)",
-                  "0 0 16px rgba(56, 189, 248, 0.18)"
+                  "0 0 25px rgba(56, 189, 248, 0.6)",
+                  "0 0 45px rgba(168, 85, 247, 0.8)",
+                  "0 0 25px rgba(56, 189, 248, 0.6)"
                 ],
-                scale: [1, 1.005, 1]
+                scale: [1, 1.01, 1]
               }}
-              transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
+              transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
             >
               {/* Outer gradient ring */}
-              <div className="absolute inset-0 -z-10 rounded-full bg-gradient-to-tr from-cyan-500/40 via-fuchsia-500/30 to-transparent blur-lg" />
+              <div className="absolute inset-0 -z-10 rounded-full bg-gradient-to-tr from-cyan-500/60 via-fuchsia-500/50 to-transparent blur-xl" />
       
               <div className="neon-img-wrapper">
-              <img
+              <motion.img
                 src="\profile.jpg"
                 alt="T. PURUSOTTAM REDDY"
-                className="rounded-full object-cover w-[260px] h-[260px] lg:w-[320px] lg:h-[320px] ring-2 ring-cyan-400/30"
+                className="rounded-full object-cover w-[260px] h-[260px] lg:w-[320px] lg:h-[320px]"
                 style={{ maxWidth: "100%", maxHeight: "100%" }}
+                animate={{
+                  scale: [1, 0.99, 1]
+                }}
+                transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
               />
               </div>
             </motion.div>

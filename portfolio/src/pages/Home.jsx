@@ -12,7 +12,7 @@ import { motion, useScroll, useSpring } from "framer-motion";
 
 
 const Home = () => {
-  // Scroll progress indicator animation
+  // Scroll progress indicator animation effect
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
