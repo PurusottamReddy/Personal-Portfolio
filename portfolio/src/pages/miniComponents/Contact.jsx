@@ -51,7 +51,7 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    const mailtoLink = `mailto:prasadreddy321@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${senderName}\n\nMessage: ${message}`)}`;
+    const mailtoLink = `mailto:purusottamreddy321@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${senderName}\n\nMessage: ${message}`)}`;
     window.open(mailtoLink, '_blank');
 
     toast.success("Opening your mail client to send the message!");
