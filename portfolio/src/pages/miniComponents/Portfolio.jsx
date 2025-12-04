@@ -25,7 +25,7 @@ const Portfolio = () => {
         "Multer",
       ],
       gitRepoLink:
-        "https://github.com/Purusottam/GroNow-Online-Grocery-Shopping-Application",
+        "https://github.com/PurusottamReddy/GroNow-Online-Grocery-Shopping-Application",
       projectLink: "https://gro-now.vercel.app/",
     },
     {
@@ -48,7 +48,7 @@ const Portfolio = () => {
         "Bcrypt",
       ],
       gitRepoLink:
-        "https://github.com/Purusottam/CyberLens-Cyber-Crime-Reporting-Platform",
+        "https://github.com/PurusottamReddy/CyberLens-Cyber-Crime-Reporting-Platform",
       projectLink:
         "https://cyberlens-cyber-crime-reporting-platform.vercel.app/",
     },
@@ -72,7 +72,7 @@ const Portfolio = () => {
         "JWT",
         "XLSX",
       ],
-      gitRepoLink: "https://github.com/Purusottam/Expense-Tracker",
+      gitRepoLink: "https://github.com/PurusottamReddy/Expense-Tracker",
       projectLink: null, // add when deployed
     },
     {
@@ -85,7 +85,7 @@ const Portfolio = () => {
       },
       stack: "React.js, Tailwind CSS, Vite",
       technologies: ["React.js", "Tailwind CSS", "Vite"],
-      gitRepoLink: "https://github.com/Purusottam/Personal-Portfolio",
+      gitRepoLink: "https://github.com/PurusottamReddy/Personal-Portfolio",
       projectLink: "https://t-purusottam-reddy-portfolio.vercel.app/",
     },
     {
@@ -108,7 +108,7 @@ const Portfolio = () => {
         "Streamlit",
       ],
       gitRepoLink:
-        "https://github.com/Purusottam/Plant-Disease-Prediction",
+        "https://github.com/PurusottamReddy/Plant-Disease-Prediction",
       projectLink: null,
     },
     {
@@ -128,7 +128,7 @@ const Portfolio = () => {
         "Matplotlib",
         "Seaborn",
       ],
-      gitRepoLink: "https://github.com/Purusottam/Thyroid-Prediction",
+      gitRepoLink: "https://github.com/PurusottamReddy/Thyroid-Prediction",
       projectLink: null,
     },
     {
@@ -142,7 +142,7 @@ const Portfolio = () => {
       stack: "Python, Scikit-learn, Pandas, NumPy",
       technologies: ["Python", "Scikit-learn", "Pandas", "NumPy"],
       gitRepoLink:
-        "https://github.com/Purusottam/Movie-Recommendation-System",
+        "https://github.com/PurusottamReddy/Movie-Recommendation-System",
       projectLink: null,
     },
   ];
