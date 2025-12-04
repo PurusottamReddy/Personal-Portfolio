@@ -77,7 +77,7 @@ const Portfolio = () => {
     },
     {
       _id: "4",
-      title: "Personal Portfolio – Modern Developer Portfolio",
+      title: "Personal Portfolio",
       description:
         "Responsive and modern portfolio showcasing projects, skills, resume, and contact sections with smooth UI and animations.",
       projectBanner: {
